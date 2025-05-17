@@ -11,6 +11,7 @@ pipeline {
     stage('Test') {
       steps {
         echo 'Running tests...'
+        sh 'python3 python_example.py'  // This runs your Python script
       }
     }
 
