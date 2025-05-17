@@ -1,0 +1,3 @@
+ifconfig       # Show IP addresses
+ping google.com  # Test network connectivity
+netstat -tuln  # Show open ports
